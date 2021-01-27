@@ -1,0 +1,130 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 65rem;
+  min-height: 15rem;
+  padding: 15rem 0;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+} */
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  /* height: 100%; */
+  height: 65rem;
+  min-height: 10rem;
+  padding-bottom: 7rem;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2014/11/17/13/17/crossfit-534615_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+}
+
+button:focus {
+  cursor: pointer;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: rgb(244, 250, 250);
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  padding: 20px 0;
+  width: 100%;
+  background-color: rgba(102, 104, 107, 0.842);
+}
+
+.container .head_var {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .title {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(214, 218, 218);
+  margin-left: 3%;
+}
+
+.container .menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 3%;
+}
+
+.container .menu li {
+  margin-right: 20px;
+}
+
+.container .menu li button {
+  font-size: 26px;
+  color: rgb(244, 250, 250);
+  background-color: rgba(102, 104, 107, 0.842);
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.container .menu li button:focus {
+  outline: none;
+}
+
+.main {
+  padding: 10% 30%;
+}
+
+.main .center {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+.main .center .title {
+  font-size: 80px;
+  color: rgba(10, 10, 10, 0.685);
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.main .center .user_click {
+  padding: 20px 0;
+}
+
+.main .center .user_click button {
+  color: rgb(244, 250, 250);
+  background-color: rgba(102, 104, 107, 0.842);
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
